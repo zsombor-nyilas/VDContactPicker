@@ -1,4 +1,4 @@
 language: objective-c
-osx_image: xcode9
+osx_image: xcode9.3
 before_install: gem install xcpretty
 script: xcodebuild -project VDContactPicker.xcodeproj -sdk iphonesimulator build | xcpretty -c
