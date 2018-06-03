@@ -25,4 +25,6 @@ s.frameworks       = 'Contacts', 'ContactsUI'
 s.source_files     = 'Source'
 s.resource_bundles = { 'VDContactPicker' => ['Assets/*.xib'] }
 
+s.swift_version    = "4.0"
+
 end
