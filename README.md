@@ -12,7 +12,7 @@ A contacts picker component using Apple's Contacts framework.
 [![License](https://img.shields.io/cocoapods/l/Ouroboros.svg?style=flat)](https://github.com/vdeep/VDContactPicker/blob/master/LICENSE)
 [![Twitter: @VishalDeep](https://img.shields.io/badge/contact-@vishal_deep-blue.svg?style=flat)](https://twitter.com/vishal_deep)
 
-This library was originally forked from [JFContactsPicker](https://github.com/jettf/JFContactsPicker), which is no longer maintained.
+This library was originally forked from [JFContactsPicker](https://github.com/jettf/JFContactsPicker)
 
 ## Preview
 ![Single Selection](https://raw.githubusercontent.com/vdeep/VDContactPicker/master/Screenshots/Screen1.png)![Multi Selection](https://raw.githubusercontent.com/vdeep/VDContactPicker/master/Screenshots/Screen2.png)
@@ -31,7 +31,7 @@ Just drag and drop the `Source` folder into your project
 ## Requirements
 
 * iOS9+
-* Swift 3.0
+* Swift 4.1
 * ARC
 
 For manual installation you may need to add these frameworks in your Build Phases:
