@@ -39,7 +39,7 @@ For manual installation you may need to add these frameworks in your Build Phase
 
 ## Features
 
-JFContacts Picker provides all common functionality and customization features:
+VDContactPicker provides all common functionality and customization features:
 
 [x] Single selection and multi-selection options.
 [x] Search Contacts
@@ -61,7 +61,7 @@ self.present(navigationController, animated: true, completion: nil)
 ```
 ## Delegates
 
-ContactsPicker provides you four delegate methods for responding to the picker's events.
+VDContactPicker provides you four delegate methods for responding to the picker's events.
 
 ```swift
 func contactPicker(_ contactPicker: VDContactsPicker, didContactFetchFailed error : NSError)
