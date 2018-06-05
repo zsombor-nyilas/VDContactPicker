@@ -8,6 +8,7 @@ A contacts picker component using Apple's Contacts framework.
 [![Platform](https://img.shields.io/cocoapods/p/VDContactPicker.svg?style=flat)](http://cocoapods.org/pods/VDContactPicker)
 [![Swift 4.1](https://img.shields.io/badge/Swift-4.1-orange.svg?style=flat)](https://developer.apple.com/swift/)
 [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/VDContactPicker.svg?style=flat)](http://cocoadocs.org/docsets/VDContactPicker)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![CI Status](https://travis-ci.org/vdeep/VDContactPicker.svg?branch=master)](https://travis-ci.org/vdeep/VDContactPicker)
 [![License](https://img.shields.io/cocoapods/l/Ouroboros.svg?style=flat)](https://github.com/vdeep/VDContactPicker/blob/master/LICENSE)
 [![Twitter: @VishalDeep](https://img.shields.io/badge/contact-@vishal_deep-blue.svg?style=flat)](https://twitter.com/vishal_deep)
