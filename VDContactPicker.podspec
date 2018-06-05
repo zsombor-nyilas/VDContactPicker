@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name             = "VDContactPicker"
 s.module_name      = "VDContactPicker"
-s.version          = "1.0.0"
+s.version          = "1.0.1"
 s.summary          = "A contacts picker component for iOS written in swift using new contacts framwork. Based on 'JFContactPicker'."
 s.description      = <<-DESC
 Features
@@ -25,6 +25,6 @@ s.frameworks       = 'Contacts', 'ContactsUI'
 s.source_files     = 'Source'
 s.resource_bundles = { 'VDContactPicker' => ['Assets/*.xib'] }
 
-s.swift_version    = "4.0"
+s.swift_version    = "4.1"
 
 end
