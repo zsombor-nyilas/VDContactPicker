@@ -221,6 +221,7 @@ open class VDContactPicker: UIViewController, UITableViewDelegate, UITableViewDa
             var orderedContacts = [String : [CNContact]]()
 
             let contactFetchRequest = CNContactFetchRequest(keysToFetch: allowedContactKeys())
+            contactFetchRequest.sortOrder = sortOrder
 
             do {
                 try contactsStore.enumerateContacts(with: contactFetchRequest, usingBlock: { [weak self] (contact, stop) -> Void in
