@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C908582F21082A9A003676DD /* VDConstantsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C908582E21082A9A003676DD /* VDConstantsProtocol.swift */; };
+		C908583021082B02003676DD /* VDGlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B6067020C3E04900F412D1 /* VDGlobalConstants.swift */; };
+		C908583121082B04003676DD /* VDContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B6067220C3E0B000F412D1 /* VDContact.swift */; };
+		C908583221082B08003676DD /* VDContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B6067420C3E13B00F412D1 /* VDContactCell.swift */; };
+		C908583321082B0A003676DD /* VDContactPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B6067620C3E1D000F412D1 /* VDContactPicker.swift */; };
+		C908583421082B10003676DD /* VDConstantsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C908582E21082A9A003676DD /* VDConstantsProtocol.swift */; };
+		C908583621082B71003676DD /* VDDefaultConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C908583521082B71003676DD /* VDDefaultConstants.swift */; };
+		C908583721082B81003676DD /* VDDefaultConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C908583521082B71003676DD /* VDDefaultConstants.swift */; };
 		C9B6065020C3DE5D00F412D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B6064F20C3DE5D00F412D1 /* AppDelegate.swift */; };
 		C9B6065220C3DE5D00F412D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B6065120C3DE5D00F412D1 /* ViewController.swift */; };
 		C9B6065520C3DE5D00F412D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B6065320C3DE5D00F412D1 /* Main.storyboard */; };
 		C9B6065720C3DE5E00F412D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9B6065620C3DE5E00F412D1 /* Assets.xcassets */; };
 		C9B6065A20C3DE5E00F412D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B6065820C3DE5E00F412D1 /* LaunchScreen.storyboard */; };
 		C9B6066520C3DE5E00F412D1 /* VDContactPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B6066420C3DE5E00F412D1 /* VDContactPickerTests.swift */; };
-		C9B6067120C3E04900F412D1 /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B6067020C3E04900F412D1 /* GlobalConstants.swift */; };
-		C9B6067320C3E0B000F412D1 /* VDContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B6067220C3E0B000F412D1 /* VDContact.swift */; };
-		C9B6067520C3E13B00F412D1 /* VDContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B6067420C3E13B00F412D1 /* VDContactCell.swift */; };
-		C9B6067720C3E1D000F412D1 /* VDContactPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B6067620C3E1D000F412D1 /* VDContactPicker.swift */; };
 		C9B6067920C3E46B00F412D1 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B6067820C3E46B00F412D1 /* Extensions.swift */; };
 		C9B6067B20C3E58800F412D1 /* VDContactPicker.podspec in Resources */ = {isa = PBXBuildFile; fileRef = C9B6067A20C3E58800F412D1 /* VDContactPicker.podspec */; };
 		C9B6067D20C3E63E00F412D1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C9B6067C20C3E63E00F412D1 /* README.md */; };
@@ -25,7 +29,7 @@
 		C9BBBB1E20C69EF5009EB60F /* VDContactPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = C9BBBB1C20C69EF5009EB60F /* VDContactPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9BBBB2120C69EF5009EB60F /* VDContactPicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BBBB1A20C69EF5009EB60F /* VDContactPicker.framework */; };
 		C9BBBB2220C69EF5009EB60F /* VDContactPicker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C9BBBB1A20C69EF5009EB60F /* VDContactPicker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		C9BBBB2620C69F02009EB60F /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B6067020C3E04900F412D1 /* GlobalConstants.swift */; };
+		C9BBBB2620C69F02009EB60F /* VDGlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B6067020C3E04900F412D1 /* VDGlobalConstants.swift */; };
 		C9BBBB2720C69F02009EB60F /* VDContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B6067220C3E0B000F412D1 /* VDContact.swift */; };
 		C9BBBB2820C69F02009EB60F /* VDContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B6067420C3E13B00F412D1 /* VDContactCell.swift */; };
 		C9BBBB2920C69F02009EB60F /* VDContactPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B6067620C3E1D000F412D1 /* VDContactPicker.swift */; };
@@ -65,6 +69,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C908582E21082A9A003676DD /* VDConstantsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDConstantsProtocol.swift; sourceTree = "<group>"; };
+		C908583521082B71003676DD /* VDDefaultConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDDefaultConstants.swift; sourceTree = "<group>"; };
 		C9B6064C20C3DE5C00F412D1 /* VDContactPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VDContactPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B6064F20C3DE5D00F412D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9B6065120C3DE5D00F412D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,7 +81,7 @@
 		C9B6066020C3DE5E00F412D1 /* VDContactPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VDContactPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B6066420C3DE5E00F412D1 /* VDContactPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDContactPickerTests.swift; sourceTree = "<group>"; };
 		C9B6066620C3DE5E00F412D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9B6067020C3E04900F412D1 /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
+		C9B6067020C3E04900F412D1 /* VDGlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDGlobalConstants.swift; sourceTree = "<group>"; };
 		C9B6067220C3E0B000F412D1 /* VDContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDContact.swift; sourceTree = "<group>"; };
 		C9B6067420C3E13B00F412D1 /* VDContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDContactCell.swift; sourceTree = "<group>"; };
 		C9B6067620C3E1D000F412D1 /* VDContactPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDContactPicker.swift; sourceTree = "<group>"; };
@@ -167,11 +173,13 @@
 		C9B6066F20C3DEA000F412D1 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				C9B6067020C3E04900F412D1 /* GlobalConstants.swift */,
+				C9B6067020C3E04900F412D1 /* VDGlobalConstants.swift */,
 				C9B6067220C3E0B000F412D1 /* VDContact.swift */,
 				C9B6067420C3E13B00F412D1 /* VDContactCell.swift */,
 				C9B6067620C3E1D000F412D1 /* VDContactPicker.swift */,
 				C9B6067820C3E46B00F412D1 /* Extensions.swift */,
+				C908582E21082A9A003676DD /* VDConstantsProtocol.swift */,
+				C908583521082B71003676DD /* VDDefaultConstants.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -349,13 +357,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9B6067520C3E13B00F412D1 /* VDContactCell.swift in Sources */,
-				C9B6067320C3E0B000F412D1 /* VDContact.swift in Sources */,
-				C9B6067720C3E1D000F412D1 /* VDContactPicker.swift in Sources */,
+				C908583121082B04003676DD /* VDContact.swift in Sources */,
+				C908583221082B08003676DD /* VDContactCell.swift in Sources */,
 				C9B6065220C3DE5D00F412D1 /* ViewController.swift in Sources */,
 				C9B6065020C3DE5D00F412D1 /* AppDelegate.swift in Sources */,
-				C9B6067120C3E04900F412D1 /* GlobalConstants.swift in Sources */,
+				C908583321082B0A003676DD /* VDContactPicker.swift in Sources */,
+				C908583021082B02003676DD /* VDGlobalConstants.swift in Sources */,
+				C908582F21082A9A003676DD /* VDConstantsProtocol.swift in Sources */,
 				C9B6067920C3E46B00F412D1 /* Extensions.swift in Sources */,
+				C908583721082B81003676DD /* VDDefaultConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,11 +381,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9BBBB2620C69F02009EB60F /* GlobalConstants.swift in Sources */,
+				C9BBBB2620C69F02009EB60F /* VDGlobalConstants.swift in Sources */,
+				C908583621082B71003676DD /* VDDefaultConstants.swift in Sources */,
 				C9BBBB2720C69F02009EB60F /* VDContact.swift in Sources */,
 				C9BBBB2820C69F02009EB60F /* VDContactCell.swift in Sources */,
 				C9BBBB2920C69F02009EB60F /* VDContactPicker.swift in Sources */,
 				C9BBBB2A20C69F02009EB60F /* Extensions.swift in Sources */,
+				C908583421082B10003676DD /* VDConstantsProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -621,7 +633,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = FH34HJNJHS;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -651,7 +663,7 @@
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = FH34HJNJHS;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";

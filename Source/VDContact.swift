@@ -40,7 +40,7 @@ open class VDContact {
         if let birthdayDate = contact.birthday {
             birthday = Calendar(identifier: Calendar.Identifier.gregorian).date(from: birthdayDate)
             let dateFormatter = DateFormatter()
-            dateFormatter.dateFormat = GlobalConstants.Strings.birthdayDateFormat
+            dateFormatter.dateFormat = VDGlobalConstants.shared.birthdayDateFormat
             //Example Date Formats:  Oct 4, Sep 18, Mar 9
             birthdayString = dateFormatter.string(from: birthday!)
 

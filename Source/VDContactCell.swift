@@ -28,7 +28,7 @@ class VDContactCell: UITableViewCell {
 
     func updateInitialsColorForIndexPath(_ indexpath: IndexPath) {
         //Applies color to Initial Label
-        let colorArray = GlobalConstants.Colors.all
+        let colorArray = VDGlobalConstants.shared.colors
         let randomValue = (indexpath.row + indexpath.section) % colorArray.count
         contactInitialLabel.backgroundColor = colorArray[randomValue]
     }
@@ -64,7 +64,7 @@ class VDContactCell: UITableViewCell {
                 self.contactDetailTextLabel.text = "\(contact.phoneNumbers[0].phoneNumber) and \(contact.phoneNumbers.count-1) more"
             }
             else {
-                self.contactDetailTextLabel.text = GlobalConstants.Strings.phoneNumberNotAvaialable
+                self.contactDetailTextLabel.text = VDGlobalConstants.shared.phoneNumberNotAvailable
             }
         case SubtitleCellValue.email:
             let emailCount = contact.emails.count
@@ -76,7 +76,7 @@ class VDContactCell: UITableViewCell {
                 self.contactDetailTextLabel.text = "\(contact.emails[0].email) and \(contact.emails.count-1) more"
             }
             else {
-                self.contactDetailTextLabel.text = GlobalConstants.Strings.emailNotAvaialable
+                self.contactDetailTextLabel.text = VDGlobalConstants.shared.emailNotAvailable
             }
         case SubtitleCellValue.birthday:
             self.contactDetailTextLabel.text = contact.birthdayString

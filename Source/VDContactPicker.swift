@@ -125,7 +125,7 @@ open class VDContactPicker: UIViewController, UITableViewDelegate, UITableViewDa
 
     override open func viewDidLoad() {
         super.viewDidLoad()
-        self.title = GlobalConstants.Strings.contactsTitle
+        self.title = VDGlobalConstants.shared.contactsTitle
 
         registerContactCell()
         initializeBarButtons()
@@ -151,11 +151,11 @@ open class VDContactPicker: UIViewController, UITableViewDelegate, UITableViewDa
 
     private func registerContactCell() {
         let podBundle = Bundle(for: self.classForCoder)
-        if let bundleURL = podBundle.url(forResource: GlobalConstants.Strings.bundleIdentifier, withExtension: "bundle") {
+        if let bundleURL = podBundle.url(forResource: VDGlobalConstants.shared.bundleIdentifier, withExtension: "bundle") {
 
             if let bundle = Bundle(url: bundleURL) {
 
-                let cellNib = UINib(nibName: GlobalConstants.Strings.cellNibIdentifier, bundle: bundle)
+                let cellNib = UINib(nibName: VDGlobalConstants.shared.cellNibIdentifier, bundle: bundle)
                 tableView.register(cellNib, forCellReuseIdentifier: "Cell")
             }
             else {
@@ -163,7 +163,7 @@ open class VDContactPicker: UIViewController, UITableViewDelegate, UITableViewDa
             }
 
         } else {
-            let cellNib = UINib(nibName: GlobalConstants.Strings.cellNibIdentifier, bundle: podBundle)
+            let cellNib = UINib(nibName: VDGlobalConstants.shared.cellNibIdentifier, bundle: podBundle)
             tableView.register(cellNib, forCellReuseIdentifier: "Cell")
         }
     }
