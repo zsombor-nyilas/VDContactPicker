@@ -214,7 +214,7 @@ open class VDContactPicker: UIViewController, UITableViewDelegate, UITableViewDa
                 }
             })
 
-        case  CNAuthorizationStatus.authorized:
+        case  CNAuthorizationStatus.authorized, .limited:
             //Authorization granted by user for this app.
             var contactsArray = [CNContact]()
 
